@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-image: url("/img/background2.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#site-head {
+    color: goldenrod;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.btn-cont button {
+    width: 20%;
+}
+
+#start-btn{
+    background-color: darkgreen;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 60px;
+    transition: 0.5s;
+}
+
+#start-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#start-btn:active {
+    transform: scale(0.95);
+}
+
+#newcard-btn {
+    background-color: darkgreen;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 60px;
+    transition: 0.5s;
+}
+
+#newcard-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#newcard-btn:active {
+    transform: scale(0.95);
+}
